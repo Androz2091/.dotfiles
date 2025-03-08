@@ -1,1 +1,11 @@
-/opt/dynapt/config.json
+{
+    "port": 3234,
+    "concurrency": null,
+    "apps": [
+        {
+            "name": "Discord",
+            "url": "https://discord.com/api/download?platform=linux&format=deb",
+            "id": "f918727a-8ebd-441e-b045-ff847fbca47c"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+/home/poca/scripts/gnome_mute_ferdium_dnd.sh

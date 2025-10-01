@@ -1,0 +1,17 @@
+services:
+  ctf:
+    # Image, container name, etc.
+    image: ubuntuctf:${CTFVERSION:-latest}
+    platform: linux
+    build:
+      context: .
+      args:
+        VERSION: ${CTFVERSION:-latest}
+    hostname: ubuntuctf
+    container_name: ctf
+    extra_hosts:
+      host.docker.internal: host-gateway
+    # Map into container
+    volumes:
+      - ${CTFDIR:-~/ctf}:/ctf
+    working_dir: /ctf

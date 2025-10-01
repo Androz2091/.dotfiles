@@ -12,11 +12,9 @@ fi
 FILE_PATH="$1"
 FILE_NAME=$(basename "$FILE_PATH")
 
-# Ask for password securely
 read -s -p "Password for $USERNAME: " PASSWORD
 echo
 
-# 1. Get API token (plain text, not JSON)
 TOKEN=$(curl -s -X POST "$BASE_URL/api/login" \
   -H "Content-Type: application/json" \
   -d "{\"username\":\"$USERNAME\",\"password\":\"$PASSWORD\"}")
@@ -28,7 +26,6 @@ fi
 
 echo "✅ Logged in. Token acquired."
 
-# 2. Upload file to root folder
 RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
   "$BASE_URL/api/resources/$FILE_NAME" \
   -H "X-Auth: $TOKEN" \

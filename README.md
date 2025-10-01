@@ -6,7 +6,7 @@ The goal of this repository is not to automate everything but to have a referenc
 
 ### Daily tools
 
-Ordered by the order I should install/setup the tools:
+Ordered by the order I should install/setup the tools. Steps that require the previous computer's data are marked with ⚠️.
 
 - Firefox
 - `zsh` and Oh My Zsh + autocomplete plugin
@@ -15,7 +15,7 @@ Ordered by the order I should install/setup the tools:
 - Docker
 - `kubectl`
 - `kubeseal`
-- create a `.kube/config` file
+- ⚠️ (key) create a `.kube/config` file
 - enable kubectl autocompletion by pasting the script in the `.zshrc`
 - `nvm`
 - `node`/`npm` using `nvm`
@@ -24,14 +24,38 @@ Ordered by the order I should install/setup the tools:
 - `tldr` via `npm`
 - Obsidian
 - Telegram
-- VS Code
+- ⚠️ (extensions) VS Code
 - `ngrok`
-- setup SSH keys for GitHub/Gitlab
+- ⚠️ (key) setup SSH keys for GitHub/Gitlab
 - Termius
 - Whatsapp (ZapZap sur Linux)
 - Slack
-- Plex
-- Ghidra or Binary Ninja
+- Spotify
+- GitKraken
+- ⚠️ (config) DBeaver
+- Warp
+- Cursor
+- Calibre
+- TeamViewer
+
+### VS Code extensions
+
+- Error Lens (Alexander)
+- Emoji (Perkovec)
+- Effect Dev Tools (Effectful Technologies)
+- Remove comments (pblibither8)
+- vscode-pdf (tomoki1207)
+- xstate vscode (stately)
+- Wakatime (wakatime)
+- Flow icons (thang nguyen)
+- Tinymist Typst (riad Dreamin)
+
+### Other configuration steps
+
+setup shortcuts to:
+- open an app (cmd + d)
+- open the terminal (cmd + t)
+- close an app (cmd + shift + tab)
 
 ### Ubuntu specifics
 

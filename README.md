@@ -22,7 +22,7 @@ Ordered by the order I should install/setup the tools. Steps that require the pr
 - `yarn` via `npm`
 - `pnpm` via `npm`
 - `tldr` via `npm`
-- Obsidian
+- ⚠️ Obsidian
 - Telegram
 - ⚠️ (extensions) VS Code
 - `ngrok`

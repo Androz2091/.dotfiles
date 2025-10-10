@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_PASSWORD: example
     volumes:
-      - /home/poca/Documents/Services/postgres/data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
 
   adminer:
     image: adminer
@@ -16,3 +16,7 @@ services:
       - 8085:8080
     extra_hosts:
       - "host.docker.internal:host-gateway"
+      
+      
+volumes:
+  postgres_data:

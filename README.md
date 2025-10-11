@@ -62,3 +62,11 @@ setup shortcuts to:
 ```sh
 alias epflvpn="openconnect --useragent=AnyConnect vpn.epfl.ch"
 ```
+
+### MacOS specifics
+
+- Rectangle
+- AppCleaner
+- RapidAPI
+- GrandPerspective
+- `git config --global core.excludesfile ~/.gitignore` + `echo .DS_Store >> ~/.gitignore`

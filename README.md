@@ -57,6 +57,11 @@ setup shortcuts to:
 - open the terminal (cmd + t)
 - close an app (cmd + shift + tab)
 
+add git shortcuts
+```
+git config --global alias.cmp '!f() { git add -A && git commit -m "$@" && git push; }; f'
+```
+
 ### Ubuntu specifics
 
 ```sh

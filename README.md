@@ -37,6 +37,7 @@ Ordered by the order I should install/setup the tools. Steps that require the pr
 - Cursor
 - Calibre
 - TeamViewer
+- VLC
 
 ### VS Code extensions
 
